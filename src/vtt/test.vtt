@@ -1,0 +1,15 @@
+WEBVTT
+
+STYLE
+::cue {
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: papayawhip;
+}
+
+00:00:00.000 --> 00:00:50.000 line:63% position:22% align:start
+Никогда не пейте жидкий азот.
+
+
+00:02:00.000 --> 00:20:00.000
+- Это пробьёт ваш желудок.
+- Вы можете умереть.
