@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import {  useRef, useState } from 'react';
 import { InboxOutlined } from '@ant-design/icons';
 import { VideoPlayer } from '@zezosoft/react-player';
 import { Card, Flex, message, Upload } from 'antd';
@@ -94,12 +94,7 @@ export const FileUploadMainPage = () => {
                             {URLVideo && (
                                 <Flex gap={16} vertical>
                                     <div
-                                        className={classNames(
-                                            // dataAnalyze?.timeline.map((time) =>
-                                            //     time.has_event ? '[&_.with-gap:th]:bg-amber-900' : '',
-                                            // ),
-                                            '[&_.video-player]:relative',
-                                        )}
+                                        className={classNames('[&_.video-player]:relative')}
                                     >
                                         <VideoPlayer
                                             video={{
